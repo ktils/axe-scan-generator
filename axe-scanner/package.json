@@ -1,7 +1,7 @@
 {
-  "name": "@iangrainger/angular-testing-library-schematic",
-  "version": "0.0.2",
-  "description": "Angular Schematic to create an angular-testing-library spec file",
+  "name": "axe-scan-generator",
+  "version": "1.0.2",
+  "description": "The Axe Scan tool creates and overrides component spec files with jasmine axe test scenerious added",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js"
@@ -9,7 +9,7 @@
   "keywords": [
     "schematics"
   ],
-  "author": "Ian Grainger",
+  "author": "Lakunta Tillis",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -26,10 +26,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IanGrainger/angular-testing-library-schematic.git"
+    "url": "git+https://github.com/ktils/axe-scan-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/IanGrainger/angular-testing-library-schematic/issues"
+    "url": "https://github.com/ktils/axe-scan-generator/issues"
   },
-  "homepage": "https://github.com/IanGrainger/angular-testing-library-schematic#readme"
+  "homepage": "https://github.com/ktils/axe-scan-generator/blob/main/axe-scanner/README.md"
 }
