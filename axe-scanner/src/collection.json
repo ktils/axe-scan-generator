@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "axe-scan": {
+    "axe-scan-generator": {
       "description": "Creates an angular-testing-library spec file at './<name>/<name>.component.spec.ts'. Will overwrite without prompting",
       "factory": "./testing-library/index#testingLibrary",
       "schema": "./testing-library/schema.json"
