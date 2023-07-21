@@ -1,6 +1,6 @@
 {
   "name": "axe-scan-generator",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "The Axe Scan tool creates and overrides component spec files with jasmine axe test scenerious added",
   "scripts": {
     "build": "tsc -p tsconfig.json",
